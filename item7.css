@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 90vw;
+    min-height: 100vh;
+    background: var(--groundcolor);
+}
+
+:root{
+    --maincolor: red;
+    --groundcolor: white;
+}
+
+.name{
+    height: 70px;
+    margin-inline: 55px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name ul{
+    list-style: none;
+    display: flex;
+}
+
+.name ul li{
+    margin-left: 15px;
+}
+
+.name h3{
+    color: var(--maincolor);
+    font-style: italic;
+    font-weight: bold;
+}
+
+li:nth-child(1){
+    border-bottom: 1px solid red;
+}
+
+.main{
+    width: 98.5vw;
+    height: 435px;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+    margin-left: 0px;
+}
+.body{
+    margin: 55px 0 0 50px;
+    width: 40%;
+}
+
+.body p{
+    line-height: 25px;
+}
+
+.main  h3{
+    color: var(--maincolor);
+    text-transform: uppercase;
+}
+
+.main h1{
+    font-size: 6.57rem;
+    margin-bottom: 25px;
+    color: var(--maincolor);
+}
+
+.main button{
+    display: inline-block;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.main button:nth-of-type(1){
+    background-color: var(--maincolor);
+    color: aliceblue;
+    border: none;
+    padding: 10px 35px 10px 15px;
+    clip-path: polygon(0 0, 100% 0, 75% 100%, 0 100%);
+}
+.main button:nth-of-type(2){
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 10px 15px 10px 35px;
+    clip-path: polygon( 25% 0, 100% 0, 100% 100%,0 100%);
+}
+
+table{
+    margin: 20px 0 0 50px;
+}
+table, tr td{
+   border: 1px solid transparent;
+   width: 300px;
+}
+
+tr:nth-of-type(1){
+    font-size: 40px;
+}
+
+.footer{
+
+    margin-block: 40px;
+}
+
+.footer p:nth-child(2){
+    width: 250px;
+    color: var(--maincolor);
+    margin: 5px auto;
+    font-size: 40px;
+    border-bottom: 2px solid;
+    font-style: oblique;
+}
+
+.footer p:nth-child(1){
+    text-align: center;
+    font-weight: bolder;
+}
+
+.image img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid;
+}
+.image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    width: 1000px;
+    margin: 20px auto;
+}
+
